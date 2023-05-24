@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141A1A
+}
+
+.header {
+    height: 60px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio {
+    font-family: Open Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1vw;
+
+}
+
+.logo {
+    width: 40;
+    height: 43;
+    fill: none;
+    }
+
+.Navegador {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+.home {
+    color: #0872BF;
+}
+
+.inicio {
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.hello {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.im{
+    margin-left: 5px;
+    color: #0872BF;
+}
+
+.subtitulo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: "inter";
+    color: white;
+    margin-right: 1100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.boton { 
+    font-family: 'Inter';
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    box-shadow: 0px 10px 25px 0px #00000040;
+    background-color: #0872BF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 42px;
+    padding-right: 42px;
+    border-radius: 15px;
+    margin-bottom: 60px;
+
+}
+
+.check {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.imagen {
+    height: 536px;
+    width: 400px;
+    float: right;
+    margin-right: 120px;
+    
+}
+
+.mancha {
+    height: 636px;
+    width: 500px;
+    margin-left: 870px;
+    float: right;
+    position: absolute;
+    z-index: -1;
+}
+
+.parte2 {
+    margin-top: 220px;
+}
+.servicios {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+
+}
+
+.What {
+    color: #0872BF;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.habilidades {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 9vh 9vw;
+    gap: 4vw;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cuadro {
+    box-sizing: border-box;
+    width: 354.62px;
+    height: 445.09px;
+    left: 542.62px;
+    top: 1061px;
+    box-shadow: 0px 4px 20px rgba(93, 173, 236, 0.23);
+    border-radius: 42px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+
+}
+
+.img {
+    height: 195px;
+    width: 143px;
+}
+
+.T {
+    color: white;
+    margin-top: 250px;
+
+}
+
+.parrafo {
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: justify;
+}
