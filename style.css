@@ -216,3 +216,120 @@ p {
     line-height: 27px;
     text-align: justify;
 }
+
+.parte3 {
+    margin-left: 600px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.recent {
+    color: white;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 15px;
+
+}
+
+.proyecto {
+    color: #0872BF;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.parraforecienteproyecto{
+    font-family: Open Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 50px;
+    width: 73%;
+    margin-left: 170px;
+}
+
+.imagenesvarias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+
+}
+
+.gps {
+    height: 500px;
+    width: 720px;
+    border: solid;
+    border-radius: 40px;
+    border-image-source: linear-gradient(105.51deg, rgba(11, 70, 124, 0.77) 0%, rgba(55, 83, 108, 0.24) 98.98%);
+    box-shadow: 0px 4px 20px 0px #5DADEC3B;
+
+}
+
+.celu{ 
+    margin: 0px;
+    height:400px;
+    width: 250px;
+    border-radius: 37px;
+
+    
+}
+.celulares {
+    border: 3px solid;
+    border-radius: 40px;
+    border-image-source: linear-gradient(105.51deg, rgba(11, 70, 124, 0.77) 0%, rgba(55, 83, 108, 0.24) 98.98%);
+    box-shadow: 0px 4px 20px 0px #5DADEC3B;
+    height: 500px;
+    width: 720px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 0px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 80px 0;
+}
+
+.boton1 {
+    font-weight: 600;
+    background: linear-gradient(90deg, #0872BF 0%, #0D92AF 100%);
+    width: 100px;
+    height: 40px;
+    border: none;
+    box-shadow: 0px 3px 2px 1px #9c9c9c31;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.boton2 {
+    font-weight: 600;
+    background: linear-gradient(90deg, #0872BF 0%, #0D92AF 100%);
+    width: 100px;
+    height: 40px;
+    border: none;
+    box-shadow: 0px 3px 2px 1px #9c9c9c31;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
